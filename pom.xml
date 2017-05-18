@@ -14,7 +14,6 @@
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
@@ -43,6 +42,7 @@
         <module>server-provide</module>
         <module>feign-server</module>
         <module>config-server</module>
+        <module>admin-server</module>
     </modules>
 
     <build>
