@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 
 @EnableAdminServer
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 @Configuration
 @EnableAutoConfiguration
 public class DemoApplication {

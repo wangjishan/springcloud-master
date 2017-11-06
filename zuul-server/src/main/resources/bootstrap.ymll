@@ -1,0 +1,15 @@
+
+spring:
+ application:
+   name: application
+ cloud:
+  config:
+   profile: prod
+   label: master
+   uri: http://localhost:7001/
+
+
+eureka:
+  instance:
+    metadataMap:
+      configPath: /zuul-config
